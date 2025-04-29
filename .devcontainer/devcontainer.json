@@ -1,0 +1,8 @@
+{
+  "name": "Python Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "postCreateCommand": "pip install crewai python-dotenv",
+  "features": {
+    "ghcr.io/devcontainers/features/sqlite:1": {}
+  }
+}
